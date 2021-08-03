@@ -20,3 +20,8 @@ The Net Ninja.
 1. Learnt to change colours of widgets and font styles.
 1. Created a custom folder for fonts and added that in `pubspec.yaml`.
 1. Used those custom fonts.
+
+
+
+## Lesson 7: Stateless Widgets & Hot Reload
+1. Learnt the use of stateless widget to reload on save. `st` and `tab`, and that's all!
