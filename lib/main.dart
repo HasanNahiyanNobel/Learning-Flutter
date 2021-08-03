@@ -46,7 +46,40 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         backgroundColor: Colors.blueGrey[600],
       ),
       body: Center(
-        child: Image.asset('images/Test_Mode_Beatles_1.png'),
+        /*child: Icon(
+          Icons.two_wheeler_rounded,
+          color: Colors.blueGrey,
+          size: 100,
+        ),*/
+        /*child: ElevatedButton(
+          onPressed: () {
+            print('আমাকে ক্লিক করা হলো!');
+          },
+          child: Text('ঘাউ!'),
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
+            foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+          ),
+        ),*/
+        /*child: ElevatedButton.icon(
+          onPressed: () {
+            print('আমাকে ক্লিক করা হলো!');
+          },
+          icon: Icon(Icons.two_wheeler_rounded),
+          label: Text('ঘাউ!'),
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
+            foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+          ),
+        ),*/
+        child: IconButton(
+          onPressed: () {
+            print('আমাকে ক্লিক করা হলো!');
+          },
+          icon: Icon(Icons.two_wheeler_rounded),
+          iconSize: 100,
+          color: Colors.blueGrey,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: null,

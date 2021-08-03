@@ -31,3 +31,8 @@ The Net Ninja.
 ## Lesson 8: Images and Assets
 1. Added an image as asset.
 1. Learnt the use of `Image.asset`.
+
+
+
+## Lesson 9: Buttons & Icons
+1. Learnt the use of `Icon`, `ElevatedButton`, `ElevatedButton.icon` and `IconButton` as a child. :3
