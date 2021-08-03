@@ -45,41 +45,18 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         centerTitle: true,
         backgroundColor: Colors.blueGrey[600],
       ),
-      body: Center(
-        /*child: Icon(
-          Icons.two_wheeler_rounded,
-          color: Colors.blueGrey,
-          size: 100,
-        ),*/
-        /*child: ElevatedButton(
-          onPressed: () {
-            print('আমাকে ক্লিক করা হলো!');
-          },
-          child: Text('ঘাউ!'),
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
-            foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
-          ),
-        ),*/
-        /*child: ElevatedButton.icon(
-          onPressed: () {
-            print('আমাকে ক্লিক করা হলো!');
-          },
-          icon: Icon(Icons.two_wheeler_rounded),
-          label: Text('ঘাউ!'),
-          style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
-            foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
-          ),
-        ),*/
-        child: IconButton(
-          onPressed: () {
-            print('আমাকে ক্লিক করা হলো!');
-          },
-          icon: Icon(Icons.two_wheeler_rounded),
-          iconSize: 100,
-          color: Colors.blueGrey,
+      /*body: Container(
+        padding: EdgeInsets.symmetric(
+          horizontal: 30,
+          vertical: 10,
         ),
+        margin: EdgeInsets.all(20),
+        color: Colors.blueGrey[300],
+        child: Text('কী রে!'),
+      ),*/
+      body: Padding(
+        padding: EdgeInsets.all(50),
+        child: Text('কী রে!'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: null,

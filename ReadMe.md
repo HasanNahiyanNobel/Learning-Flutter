@@ -36,3 +36,9 @@ The Net Ninja.
 
 ## Lesson 9: Buttons & Icons
 1. Learnt the use of `Icon`, `ElevatedButton`, `ElevatedButton.icon` and `IconButton` as a child. :3
+
+
+
+## Lesson 10: Containers & Padding
+1. Learnt the use of `EdgeInsets` for padding and margin inside `Container` widget.
+1. Learnt the use of `Padding` widget instead—which I didn't like anyway.
