@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -45,18 +46,24 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         centerTitle: true,
         backgroundColor: Colors.blueGrey[600],
       ),
-      /*body: Container(
-        padding: EdgeInsets.symmetric(
-          horizontal: 30,
-          vertical: 10,
-        ),
-        margin: EdgeInsets.all(20),
-        color: Colors.blueGrey[300],
-        child: Text('কী রে!'),
-      ),*/
-      body: Padding(
-        padding: EdgeInsets.all(50),
-        child: Text('কী রে!'),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text('ঘাউ'),
+          TextButton(
+            onPressed: null,
+            child: Text('আমি বোতাম'),
+            style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all<Color>(Colors.amber),
+            ),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(30),
+            child: Text('আমি কন্টেইনারের ভিতরে আছি।'),
+          )
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: null,

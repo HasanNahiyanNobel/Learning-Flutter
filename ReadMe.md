@@ -42,3 +42,10 @@ The Net Ninja.
 ## Lesson 10: Containers & Padding
 1. Learnt the use of `EdgeInsets` for padding and margin inside `Container` widget.
 1. Learnt the use of `Padding` widget instead—which I didn't like anyway.
+
+
+
+## Lesson 11: Rows
+1. Learnt the use of `Row` widget.
+1. Learnt how `mainAxisAlignment.spaceBetween` and `mainAxisAlignment.spaceEvenly` can help us. :p
+1. Did *not* feel `crossAxisAlignment` very friendly. But used, however. 
