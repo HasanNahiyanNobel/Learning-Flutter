@@ -13,3 +13,10 @@ The Net Ninja.
 ## Lesson 5: Scaffold & AppBar Widgets
 1. Now I see—the basic layout looks horrible—this why we need Scaffold widget.
 1. Created appbar, body, and a floating action button.
+
+
+
+## Lesson 6: Colours & Fonts
+1. Learnt to change colours of widgets and font styles.
+1. Created a custom folder for fonts and added that in `pubspec.yaml`.
+1. Used those custom fonts.
