@@ -45,9 +45,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -61,6 +60,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+    - family: Candara
+      fonts:
+        - asset: fonts/Candara.ttf
     - family: CMU_Serif
       fonts:
         - asset: fonts/CMU_Serif.ttf
@@ -70,12 +72,12 @@ flutter:
     - family: Georama_Regular
       fonts:
         - asset: fonts/Georama_Regular.ttf
-    - family: NikoshBAN
-      fonts:
-        - asset: fonts/NikoshBAN.ttf
     - family: Kalpurush
       fonts:
         - asset: fonts/Kalpurush.ttf
+    - family: NikoshBAN
+      fonts:
+        - asset: fonts/NikoshBAN.ttf
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -25,3 +25,9 @@ The Net Ninja.
 
 ## Lesson 7: Stateless Widgets & Hot Reload
 1. Learnt the use of stateless widget to reload on save. `st` and `tab`, and that's all!
+
+
+
+## Lesson 8: Images and Assets
+1. Added an image as asset.
+1. Learnt the use of `Image.asset`.

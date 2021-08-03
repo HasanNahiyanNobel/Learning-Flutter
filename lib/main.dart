@@ -4,6 +4,9 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Kalpurush',
+      ),
       home: Home(),
     ),
   );
@@ -34,33 +37,21 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blueGrey[50],
       appBar: AppBar(
         title: Text(
-          'A Day in the Life',
-          style: TextStyle(
-            fontFamily: 'Georama_Regular',
-          ),
+          'প্রভু, নষ্ট হয়ে যাই',
         ),
         centerTitle: true,
         backgroundColor: Colors.blueGrey[600],
       ),
       body: Center(
-        child: Text(
-          'প্রভু, নষ্ট হয়ে যাই',
-          style: TextStyle(
-            fontFamily: 'NikoshBAN',
-            fontSize: 22,
-            color: Colors.black54,
-          ),
-        ),
+        child: Image.asset('images/Test_Mode_Beatles_1.png'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: null,
         child: Text(
-          'Click!',
-          style: TextStyle(
-            fontFamily: 'Georama_Regular',
-          ),
+          'ক্লিক!',
         ),
         backgroundColor: Colors.blueGrey[600],
       ),
